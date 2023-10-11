@@ -1,0 +1,69 @@
+<style>
+    .main-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
+}
+
+.image-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 900px;
+    border: 1px solid #fff;
+}
+
+.image-container-2 a {
+    width: 48%; /* Two images in a row */
+    text-decoration: none; /* Remove the underline for links */
+    display: block; /* Make the links block-level for consistent layout */
+}
+
+.image-container-2 img {
+    width: 100%; /* Full width for images within links */
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .main-container-2 {
+        flex-direction: column;
+    }
+    .image-container-2 {
+        width: 100%;
+        max-width: none;
+    }
+}
+
+</style>
+<div class="text">
+    <h2>Extremely Beautiful Veneer-Inlay Craftsmanship</h2>
+    <p>Quality Furniture, Handmade with Love</p>
+</div>
+<div class="main-container-2">
+    <div class="image-container-2">
+        <a href="webpage1.html">
+            <img src="selectedPics/DIANA.webp" alt="Image 1">
+        </a>
+        <a href="webpage2.html">
+            <img src="selectedPics/RT1.jpeg" alt="Image 2">
+        </a>
+    </div>
+    <div class="image-container-2">
+        <a href="webpage3.html">
+            <img src="selectedPics/ET2.jpg" alt="Image 3">
+        </a>
+        <a href="webpage4.html">
+            <img src="selectedPics/CTR1.jpeg" alt="Image 4">
+        </a>
+    </div>
+    <div class="image-container-2">
+        <a href="webpage5.html">
+            <img src="selectedPics/TT.webp" alt="Image 5">
+        </a>
+        <a href="webpage6.html">
+            <img src="selectedPics/ET3.webp" alt="Image 6">
+        </a>
+    </div>
+    <!-- You can continue adding more image containers as needed -->
+</div>
